@@ -1,0 +1,199 @@
+/* CSS met uitgebreide Art Deco-ontwerpstijl */
+
+/* Algemene opmaak */
+body {
+    font-family: 'Arial', sans-serif;
+    background: url('blackBg.png');
+	 color: #E8E8E8;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background: url('artdecoBG.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+    padding: 20px;
+    text-align: center;
+	color: #E8E8E8;
+}
+
+header h1{
+	font-size: 3em;
+	text-transform: uppercase;
+	letter-spacing: 10px;
+	color: #F3C300; /* Gouden kleur */
+	margin: 100px;
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	border: #98690b 5px solid;
+	background-color: #F3C300;
+	padding: 10px;
+	width: 40%;
+	margin: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 2px;
+}
+
+h3 {
+	font-size: 1.5em;
+	text-align: center;
+	color: #E8E8E8;
+}
+
+header h1 {
+	margin-left: auto;
+	margin-right: auto;
+    font-size: 3em;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    color: #F3C300; /* Gouden kleur */
+    margin-bottom: 10px;
+}
+
+
+header h2 {
+    font-size: 1.5em;
+	color: #E8E8E8;
+}
+
+
+.decorative-pattern {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.decorative-pattern::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to bottom right, #F3C300 50%, transparent 50%);
+    opacity: 0.1;
+}
+
+.decorative-pattern::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: radial-gradient(circle, #F3C300 20%, transparent 80%);
+    opacity: 0.1;
+}
+
+/* Hoofdinhoud */
+.main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Sectiekoppen */
+.section-title {
+    text-align: center;
+    font-size: 2em;
+    color: #BF953F;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.section-title::before,
+.section-title::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 2px;
+    background-color: #BF953F;
+}
+
+.section-title::before {
+    left: -60px;
+    transform: translateY(-50%);
+}
+
+.section-title::after {
+    right: -60px;
+    transform: translateY(-50%);
+}
+
+/* Samenvatting */
+.summary {
+    margin-bottom: 40px;
+}
+
+.summary p {
+    font-style: italic;
+}
+
+
+.sidebar {
+    width: 100%;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #BF953F;
+    color: #2C3539;
+	text-align: center;
+}
+
+.sidebar h3 {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    color: #2C3539;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li a {
+    color: #2C3539;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.sidebar li a:hover {
+    color: #F3C300;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding-top: 40px;
+	width: 100%;
+	background-color: #2C3539;
+	color: #E8E8E8;
+	font-size: 0.8em;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	padding: 20px
+}
+
+footer a {
+    color: #F3C300;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #BF953F;
+}
