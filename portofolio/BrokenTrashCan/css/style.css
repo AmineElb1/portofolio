@@ -1,0 +1,67 @@
+body {
+    background-color: #8fd86a;
+    overflow: hidden; 
+}
+
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 4vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trash_items {
+    width: 100%;
+    height: 100%;
+}
+
+.trash_can_front {
+    z-index: 2;
+}
+
+.trash_can_front, .trashcan {
+    position: absolute;
+    left: 50%;
+    top: 50px;
+    transform: translateX(-50%);
+    width: 75%;
+    pointer-events: none;
+}
+
+#trash_item1 {
+    position: absolute;
+    width: 13%;
+    transform: scaleX(-1);
+    top: 64%;
+    left: 58%;
+}
+
+#trash_item2 {
+    position: absolute;
+    width: 8%;
+    top: 51%;
+    left: 24%;
+}
+
+#trash_item3 {
+    position: absolute;
+    width: 12%;
+    top: 69%;
+    left: 10%;
+    transform: rotate(-70deg);
+}
+
+#trash_item4 {
+    position: absolute;
+    width: 8%;
+    top: 32%;
+    left: 66%;
+    transform: rotate(30deg);
+}
+
+.fall-animation {
+    transition: top 1s ease;
+}
