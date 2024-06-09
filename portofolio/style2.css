@@ -1,0 +1,28 @@
+.text-gradient {
+    background: -webkit-linear-gradient(315deg, #ff0000 0%, #000000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+body{
+    background-color: white;
+    color: #fff;
+  }
+
+.badge {
+    background: -webkit-linear-gradient(315deg, #ff0000 0%, #000000 100%);
+    color: #000000;
+  }
+
+.btn-primary{
+    background: -webkit-linear-gradient(315deg, #ff0000 0%, #000000 100%);
+  }
+
+.profile {
+    background: -webkit-linear-gradient(315deg, #ff0000 0%, #000000 100%);
+  }
+
+
+.svg g{
+    background: #000000;
+}
