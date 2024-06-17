@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visa Status - EasyWorld</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+            <div class="container px-5">
+                <a class="navbar-brand fw-bold" href="index.html">  <img style="width: 100px;" src="images/logoEasyWorld.png"> <a class="navbar-brand fw-bold" href="index.html">   </a>
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="news.html">Newsfeed</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="profile.html">Profile</a></li>
+                    </ul>
+                    <a class="nav-link me-lg-3" href="visa-status.html">
+                    <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                        <span class="d-flex align-items-center">
+                            <span>&#9992;</span>
+                            <span class="small"> My Visa  </a> </span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="visa-status">
+            <img id="country-photo" alt="Country photo"></li>
+            <h1>Visa Status</h1>
+            <p>Your visa application for <span id="country-name"></span>:</p>
+            <p>Here are the next steps:</p>
+            <ol>
+                <li>Fill in the visa application form</li>
+                <li>Pay the visa application fee</li>
+                <li>Submit the visa application form</li>
+            </ol>
+            <form>
+                <h3> Personal information</h3>
+                <label for="name">Full name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="dob">Date of birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <br>
+                <label for="pob">Place of birth:</label>
+                <textarea id="text" name="pob" required></textarea>
+                <br>
+                <h3> Passport details</h3>
+                <label for="name">Passport number:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="doi"> Date of issue:</label>
+                <input type="date" id="doi" name="doi" required>
+                <br>
+                <label for="doe"> Date of expiry:</label>
+                <input type="date" id="doe" name="doe" required>
+                <br>
+                <label for="name"> Country issue:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <h3> Travel information </h3>
+                <label for="name">Travel dates:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email"> Purpose of travel:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message"> Accomandation adress:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+
+
+                <input type="submit" value="Submit">
+            </form>
+
+
+
+        </div>
+    </main>
+    <footer class="bg-black text-center py-5">
+        <div class="container px-5">
+            <div class="text-white-50 small">
+                <div class="mb-2">&copy; EasyWorld 2024. All Rights Reserved.</div>
+                <a href="#!">Privacy</a>
+                <span class="mx-1">&middot;</span>
+                <a href="#!">Terms</a>
+                <span class="mx-1">&middot;</span>
+                <a href="#!">FAQ</a>
+            </div>
+        </div>
+    </footer>
+    <script>
+            document.addEventListener("DOMContentLoaded", () => {
+        // Haal query parameters op uit de URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const name = urlParams.get('name');
+        const photo = urlParams.get('photo');
+
+        // Toon de naam en foto van het land op de pagina
+        document.getElementById('country-name').textContent = name;
+        document.getElementById('country-photo').src = photo;
+});
+    </script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+</html>

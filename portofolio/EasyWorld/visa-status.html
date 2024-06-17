@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Google fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/visa-status.css" rel="stylesheet" />
+    <!-- Vanille-->
+    <link rel="stylesheet" crossorigin href="https://dds.dell.com/components/2.41.0/css/dds-reboot.min.css" />
+    <link rel="stylesheet" crossorigin href="https://dds.dell.com/components/2.41.0/css/dds-fonts.min.css" />
+    <link rel="stylesheet" crossorigin href="https://dds.dell.com/components/2.41.0/css/dds-icons.min.css" />
+    <link rel="stylesheet" crossorigin href="https://dds.dell.com/components/2.41.0/css/dds-helpers.min.css" />
+    <link rel="stylesheet" crossorigin href="https://dds.dell.com/components/2.41.0/css/dds-main.min.css" />
+
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
+            <div class="container px-5">
+                <a class="navbar-brand fw-bold" href="index.html">  <img style="width: 100px;" src="images/logoEasyWorld.png"> <a class="navbar-brand fw-bold" href="index.html">   </a>
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="bi-list"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="news.html">Newsfeed</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="profile.html">Profile</a></li>
+                    </ul>
+                    <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" data-bs-toggle="modal" data-bs-target="#feedbackModal">
+                        <span class="d-flex align-items-center">
+                            <span>&#9992;</span>
+                            <span class="small"> <a class="nav-link me-lg-3" href="visa-status.html" style="color: white;"> My Visa  </a> </span>
+                        </span>
+                    </button>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <h2 style="margin: 50px; text-align: center;"> Visa Status </h2>
+    <div style="width: 40%; margin: auto; margin-top: 50px;">
+        <ol class="dds__progress-tracker dds__progress-tracker--vertical">
+          <li class="dds__progress-tracker__item dds__progress-tracker--complete" aria-current="false">
+            <span class="dds__sr-only">complete</span>
+            <span class="dds__progress-tracker__circle"><span class="dds__progress-tracker__icon"></span></span>
+            <div class="dds__progress-tracker__content">
+              <a href="#">Applied for visa </a>
+              <span style="width: 250px;">Application is sent to the ambassade</span>
+            </div>
+          </li>
+          <li class="dds__progress-tracker__item dds__progress-tracker--complete" aria-current="false">
+            <span class="dds__sr-only">complete</span>
+            <span class="dds__progress-tracker__circle"><span class="dds__progress-tracker__icon"></span></span>
+            <div class="dds__progress-tracker__content">
+              <a href="#"> Logistics </a>
+              <span style="width: 250px;"> Application is received and is waiting for a response </span>
+            </div>
+          </li>
+          <li class="dds__progress-tracker__item dds__progress-tracker--in-progress" aria-current="true">
+            <span class="dds__progress-tracker__circle"><span class="dds__progress-tracker__icon"></span></span>
+            <div class="dds__progress-tracker__content">
+              <span class="dds__progress-tracker__step-name"> Identification  </span>
+              <span style="width: 250px;"> Identifying the application may take some time  </span>
+            </div>
+          </li>
+          <li class="dds__progress-tracker__item" aria-current="false">
+            <span class="dds__sr-only">inactive</span>
+            <span class="dds__progress-tracker__circle"><span class="dds__progress-tracker__icon"></span></span>
+            <div class="dds__progress-tracker__content">
+              <span class="dds__progress-tracker__step-name"> Processing</span>
+              <span> Information is being checked and verified </span>
+            </div>
+          </li>
+          <li class="dds__progress-tracker__item dds__progress-tracker--active" aria-current="false">
+            <span class="dds__sr-only">active</span>
+            <span class="dds__progress-tracker__circle"><span class="dds__progress-tracker__icon"></span></span>
+            <div class="dds__progress-tracker__content">
+              <a href="#">Application is done </a>
+              <span> Youre good to go!</span>
+            </div>
+          </li>
+        </ol>
+      </div>
+      
+      <footer class="bg-black text-center py-5">
+        <div class="container px-5">
+            <div class="text-white-50 small">
+                <div class="mb-2">&copy; EasyWorld 2024. All Rights Reserved.</div>
+                <a href="#!">Privacy</a>
+                <span class="mx-1">&middot;</span>
+                <a href="#!">Terms</a>
+                <span class="mx-1">&middot;</span>
+                <a href="#!">FAQ</a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="js/main.js"></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+</body>
+</html>

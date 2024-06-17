@@ -1,0 +1,170 @@
+/* Mobile Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3D96FF;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: block;
+    margin: 10px 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+main {
+    padding: 20px;
+}
+
+#map {
+    height: 300px;
+    background-color: #eaeaea;
+    margin-bottom: 20px;
+}
+
+.apply{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.popup-img {
+    max-width: 200px;
+    height: auto; 
+}
+
+.visa-status{
+    background-color: #3D96FF; 
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto; 
+    border-radius: 10px;
+}
+
+#country-photo{
+    width: 95%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+form {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    color: #3D96FF;
+    border-radius: 5px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input[type="date"]{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h3{
+    color: black;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+@media (min-width: 600px) {
+    form {
+        max-width: 600px;
+    }
+}
+
+    nav ul li {
+        display: inline;
+        margin: 0;
+    }
+
+    nav ul li a {
+        display: inline;
+    }
+
+
+
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    header {
+        padding: 20px 0;
+    }
+
+    #map {
+        height: 500px;
+    }
+}
