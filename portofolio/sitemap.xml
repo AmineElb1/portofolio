@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://aminos62.vercel.app/</loc>
+  <lastmod>2024-09-30T11:30:38+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://aminos62.vercel.app/index.html</loc>
+  <lastmod>2024-09-30T11:30:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aminos62.vercel.app/cv%20van%20Amine%20El%20Boujadaini.pdf</loc>
+  <lastmod>2024-09-30T11:30:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aminos62.vercel.app/projects.html</loc>
+  <lastmod>2024-09-30T11:30:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aminos62.vercel.app/about.html</loc>
+  <lastmod>2024-09-30T11:30:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://aminos62.vercel.app/BrokenTrashCan/index.html</loc>
+  <lastmod>2024-09-30T11:30:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aminos62.vercel.app/Typography/index.html</loc>
+  <lastmod>2024-09-30T11:30:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aminos62.vercel.app/CSS%20Zengarden/index.html</loc>
+  <lastmod>2024-09-30T11:30:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aminos62.vercel.app/EasyWorld/index.html</loc>
+  <lastmod>2024-09-30T11:30:38+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://aminos62.vercel.app/EasyWorld/news.html</loc>
+  <lastmod>2024-09-30T11:30:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://aminos62.vercel.app/EasyWorld/profile.html</loc>
+  <lastmod>2024-09-30T11:30:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://aminos62.vercel.app/EasyWorld/visa-status.html</loc>
+  <lastmod>2024-09-30T11:30:38+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
+</urlset>
